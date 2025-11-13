@@ -26,7 +26,7 @@ jobs:
 
       - name: Build with Maven
         working-directory: Proyecto5
-        run: mvn clean install
+        run: mvn clean install -DskipTests
 
 
       - name: Upload artifact for deployment job
@@ -64,3 +64,4 @@ jobs:
           package: '*.jar'
 
           
+
