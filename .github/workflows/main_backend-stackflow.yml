@@ -25,7 +25,9 @@ jobs:
           distribution: 'microsoft'
 
       - name: Build with Maven
+        working-directory: Proyecto5
         run: mvn clean install
+
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -60,4 +62,5 @@ jobs:
           app-name: 'Backend-Stackflow'
           slot-name: 'Production'
           package: '*.jar'
+
           
