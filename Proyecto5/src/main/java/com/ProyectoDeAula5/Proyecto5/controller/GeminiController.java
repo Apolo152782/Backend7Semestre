@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/gemini")
-@CrossOrigin(origins = "http://localhost:3000") // Permite llamadas desde el frontend
+@CrossOrigin(origins = "https://frontend-stackflow.azurewebsites.net") // Permite llamadas desde el frontend
 public class GeminiController {
 
     @Autowired
