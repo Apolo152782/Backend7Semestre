@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/proveedores")
-@CrossOrigin(origins = "https://frontend-stackflow.azurewebsites.net")
+@CrossOrigin(origins = "frontend-stackflow-bkh3guh3aud2ghcc.canadacentral-01.azurewebsites.net")
 public class ProveedorController {
 
     @Autowired

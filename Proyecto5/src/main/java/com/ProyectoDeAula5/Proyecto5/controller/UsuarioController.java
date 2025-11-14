@@ -20,7 +20,7 @@ import com.ProyectoDeAula5.Proyecto5.service.UsuarioService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://frontend-stackflow.azurewebsites.net")
+@CrossOrigin(origins = "frontend-stackflow-bkh3guh3aud2ghcc.canadacentral-01.azurewebsites.net")
 public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;
